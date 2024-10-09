@@ -1,18 +1,71 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
+  Name: Jordan Fleming
+  Date: 10/6/2024
 
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+  Styling for my portfolio site to show off latest projects.
+
+  Background Photo by https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash Annie Spratt on https://unsplash.com/photos/a-white-sheet-of-paper-with-a-brown-border-xTaOPMa6wAE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+  
 */
 
-/*
-  Note: This body rule set is to get you started
-*/
 body {
-  background-color: rgb(137, 182, 154);
-  font-family: "Helvetica", sans-serif;
+  background-image: url("images\\aboutbackground.jpg");
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#resumeBody {
+  background-image: url("images\\resumebackground.jpg");
+  text-align: center;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+#introSection {
+  display: flex;
+}
+
+
+#headshot {
+  height: 200px;
+}
+
+#dogsupport {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#izaya {
+  height: 300px;
+  width: 250px;
+}
+
+#eevee {
+  height: 300px;
+  width: 250px;
+}
+
+blockquote, h3 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
