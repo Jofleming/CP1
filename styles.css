@@ -9,15 +9,16 @@
 */
 
 body {
-  background-image: url("images\\aboutbackground.jpg");
+  background-image: url("images\\resumebackground.jpg");
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
+  font-size: xx-large
 }
 
 
@@ -43,6 +44,7 @@ ul {
 
 #headshot {
   height: 200px;
+  border-radius: 25px;
 }
 
 #dogsupport {
@@ -54,14 +56,20 @@ ul {
 #izaya {
   height: 300px;
   width: 250px;
+  border-radius: 25%;
 }
 
 #eevee {
   height: 300px;
   width: 250px;
+  border-radius: 25%;
 }
 
-blockquote, h3 {
+blockquote {
+  text-align: center;
+}
+
+h3 {
   text-align: center;
 }
 
